@@ -9,10 +9,10 @@ import requests #for making request to external APIs
 
 # Creditionals
 source = 'the-times-of-india' #  news source
-News_API_KEY = '7336385df27b4a6f9ec35e2b94ca51ab'#  news API key
+News_API_KEY = 'add your api'#  news API key
 url = f'https://newsapi.org/v2/top-headlines?sources={source}&apiKey={News_API_KEY}'  
-weather_api_key = "5f6c1fa428f74bd8b95171144240311"# weather  API key
-genai.configure(api_key="AIzaSyAMN9jcjdpIHgeHzfqcSBSsL17YrQdcY48")  #gemini api
+weather_api_key = "add your own api key"#free weather  API key
+genai.configure(api_key="add your own api key")  #gemini api
 
 #Fuctions
 
